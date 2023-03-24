@@ -1,0 +1,116 @@
+#container {
+    margin: 20px;
+}
+
+.pageName {
+    font-size: 42px;
+}
+
+/* REQUEST FORM */
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* Changes outline for the inputs on Service Form */
+input[type=text],
+input[type=date],
+input[type=number] {
+    outline-color: #02731E;
+}
+
+.label {
+    font-size: 24px;
+}
+
+.inputText { 
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+#submitRequest {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #02731E;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 8px 0px #025940;
+    border: none;
+    border-radius: 5px;
+}
+
+#submitRequest:active {
+    box-shadow: 0px 5px 0px #025940;
+    transform: translateY(2px);
+    background-color: #02731E;
+}
+
+/* SERVICE REQUESTS */
+.serviceRequests {
+    font-size: 22px;
+}
+
+/* Removes the padding so that the ul/li's are aligned with the service request form */
+.requestList {
+    padding: 0;
+}
+
+/* This is where the description text is housed */
+.requestText {
+    font-size: 18px;
+}
+
+/* This is the <li> for request items */
+.requestItem {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #D9D2CC;
+}
+
+/* Changes background color of request items every other order */
+ul>li:nth-child(odd) {
+    background-color: #D9D2CC;
+}
+
+.plumbers {
+    margin-right: 10px;
+}
+
+/* request deletion button */
+.request__delete {
+    background-color: #02731E;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.plumbers {
+    font-size: 18px;
+    outline-color: #02731E;
+    padding: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .requestItem {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+      margin: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .field {
+      flex-direction: column;
+      width: 80%;
+      margin: 20px 0;
+    }
+}
