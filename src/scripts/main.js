@@ -5,11 +5,13 @@ import { SinkRepair } from "./SinkRepair.js"
 
 const mainContainer = document.querySelector("#container")
 
-const render = () => {
-  fetchRequests()
-      .then(() => fetchPlumbers())
-      .then(() => fetchCompletions())
-      .then(
+// what is this doing? 
+// .then() tells javascript what to do after information has been received
+const render = () => { 
+  fetchRequests() // this fetches requests from the server
+      .then(() => fetchPlumbers()) // fetches plumbers from server
+      .then(() => fetchCompletions()) // fetches completions from server
+      .then( // render the sink repair component inside of the main container 
           () => {
               mainContainer.innerHTML = SinkRepair()
           }

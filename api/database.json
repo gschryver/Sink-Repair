@@ -3,121 +3,53 @@
   "completions": [
     {
       "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:19:23.474Z",
+      "plumberId": 1,
+      "plumberName": "Maude",
+      "date_created": "2023-03-28T23:42:37.696Z",
       "id": 1
     },
     {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:20:49.002Z",
-      "id": 2
-    },
-    {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:26:16.340Z",
-      "id": 3
-    },
-    {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:26:38.285Z",
-      "id": 4
-    },
-    {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:27:42.963Z",
-      "id": 5
-    },
-    {
-      "requestId": 2,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:30:05.828Z",
-      "id": 6
-    },
-    {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:30:06.974Z",
-      "id": 7
-    },
-    {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:30:09.847Z",
-      "id": 8
-    },
-    {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:37:24.161Z",
-      "id": 9
-    },
-    {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:37:42.042Z",
-      "id": 10
-    },
-    {
-      "requestId": 1,
-      "plumberId": null,
-      "date_created": "2023-03-24T22:38:28.751Z",
-      "id": 11
-    },
-    {
-      "requestId": 1,
-      "plumberId": 1,
-      "date_created": "2023-03-24T22:40:34.681Z",
-      "id": 12
-    },
-    {
-      "requestId": 1,
+      "requestId": 3,
       "plumberId": 2,
-      "date_created": "2023-03-24T22:40:41.548Z",
-      "id": 13
-    },
-    {
-      "requestId": 1,
-      "plumberId": 1,
-      "date_created": "2023-03-24T22:43:35.691Z",
-      "id": 14
-    },
-    {
-      "requestId": 1,
-      "plumberId": 1,
-      "date_created": "2023-03-24T22:46:18.228Z",
-      "id": 15
-    },
-    {
-      "requestId": 1,
-      "plumberId": 1,
-      "date_created": "2023-03-24T22:47:12.910Z",
-      "id": 16
-    },
-    {
-      "requestId": 1,
-      "plumberId": 1,
-      "date_created": "2023-03-24T22:49:22.929Z",
-      "id": 17
+      "plumberName": "Merle",
+      "date_created": "2023-03-28T23:42:40.759Z",
+      "id": 2
     }
   ],
   "requests": [
     {
-      "description": "sgsg",
-      "address": "3343",
-      "budget": "343",
-      "neededBy": "2023-03-24",
-      "id": 1
+      "description": "Test #1 - Completed task",
+      "address": "",
+      "budget": "",
+      "neededBy": "",
+      "completed": true,
+      "id": 1,
+      "completedBy": "Maude"
     },
     {
-      "description": "sdgsg",
-      "address": "334",
-      "budget": "4343",
-      "neededBy": "2023-03-31",
+      "description": "Test #2 - Uncompleted task",
+      "address": "",
+      "budget": "",
+      "neededBy": "",
+      "completed": false,
       "id": 2
+    },
+    {
+      "description": "Test #3 - Completed task",
+      "address": "",
+      "budget": "",
+      "neededBy": "",
+      "completed": true,
+      "id": 3,
+      "completedBy": "Merle"
+    },
+    {
+      "description": "Test #4 - Uncompleted task",
+      "address": "",
+      "budget": "",
+      "neededBy": "",
+      "completed": false,
+      "id": 4
     }
   ]
 }
